@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include syarah_app *.css
+recursive-include syarah_app *.csv
+recursive-include syarah_app *.html
+recursive-include syarah_app *.ico
+recursive-include syarah_app *.js
+recursive-include syarah_app *.json
+recursive-include syarah_app *.md
+recursive-include syarah_app *.png
+recursive-include syarah_app *.py
+recursive-include syarah_app *.svg
+recursive-include syarah_app *.txt
+recursive-exclude syarah_app *.pyc
