@@ -103,6 +103,13 @@ app_license = "MIT"
 #	}
 # }
 
+doc_events = {
+	"Sales Invoice": {
+		"before_insert": "syarah_app.events.profit_taxes.profit_taxes",
+		"validate": "syarah_app.events.profit_taxes.profit_taxes"
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
